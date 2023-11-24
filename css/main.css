@@ -1,0 +1,74 @@
+main{
+    margin: 10px 20px;
+}
+.chat-me{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.chat-time-me{
+    width: 70px;
+    font-size:14px;
+    color: rgba(0,0,0,0.5);
+    padding: 40px 0 0 0;
+}
+.chat-me-message{
+    background-color: #FE7E35;
+    color: #FDFDFD;
+    padding: 8px;
+    border-radius: 15px 0px 15px 15px;
+    line-height: 21px;
+}
+.chat-friend img{
+    height: 40px;
+    padding: 5px 5px 5px 0px;
+}
+.chat-friend{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.chat-friend-message{
+    background-color: #EAEBF0;
+    padding: 14px;
+    border-radius: 0px 15px 15px 15px;
+}
+.chat-time-friend{
+    width: 70px;
+    font-size:14px;
+    color: rgba(0,0,0,0.5);
+    padding: 30px 0 0 5px;
+}
+
+.alarm-check{
+    display: flex;
+    border: 1px solid #ededef;
+    border-radius: 5px;
+    margin-top:10px ;
+    padding: 15px;
+
+}
+.alarm-check img{
+    width:18px;
+    height: 18px;
+    background-color:#FE7E35;
+    border-radius: 50%;
+    padding: 2px;
+}
+.alarm-location{
+    margin: 5px 0px 0px 10px;
+}
+.alarm-location div:nth-child(1){
+    font-weight: bold;
+}
+.alarm-location div:nth-child(2){
+    font-size: 15px;
+    padding-top: 6px;
+}
+.alarm-message{
+    font-size:12px;
+    color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
